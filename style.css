@@ -1,3 +1,36 @@
-h1 {
-    color: red;
+body {
+    background: #f9f8f8;
+    color: #666666;
+}
+header {
+    padding: 20px 50px;
+    border-bottom: 5px solid #aab1b3;
+}
+h2 {
+    margin-top: 64px;
+}
+.last-update {
+    margin-bottom: 64px;
+}
+.logo {
+    display: flex;
+}
+.logo-img {
+    display: flex;
+    align-items: center;
+}
+.logo-img img {
+    display: inline-block;
+    width: 100px;
+    margin: auto;
+}
+.logo-title {
+    display: inline-block;
+    color: #538899;
+    vertical-align: bottom;
+    margin-left: 15px;
+    font-size: 46px;
+}
+.container {
+    padding: 30px 100px;
 }
